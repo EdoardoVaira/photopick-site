@@ -74,7 +74,10 @@ worked on, so bug reports and blunt feedback are genuinely welcome.</p>
       sweep across a row, or select a range. There is no Select all button for a new
       album. Select a range lets you tap a first
       and last photo and includes everything between them; you can adjust individual
-      photos before tapping Review. The album gets a name automatically, which you
+      photos before tapping Review. Tap the selected count to see your batch and tap a
+      checked photo to leave it out; Done returns to the picker. Clear empties the
+      selection. Choosing this batch does not keep or remove any photo yet.
+      The album gets a name automatically, which you
       can change during review or on the finished album. If you don’t allow Photos
       access, Apple’s picker is offered instead. Limited access shows only allowed photos.
       If a selected photo becomes unavailable, PhotoPick keeps your selection so
@@ -97,38 +100,37 @@ worked on, so bug reports and blunt feedback are genuinely welcome.</p>
   <dd>Open the ••• menu and find Review order to switch between By date and Shuffled
       without losing your choices or moving the current photo. Skip remaining screenshots excludes only
       screenshots you have not decided on yet. It does not delete them or mark them
-      removed. Screenshots you already kept, removed or left unsure stay as you chose.
+      removed. Screenshots you already kept or removed stay as you chose.
       Restore brings skipped screenshots back, including after finishing an album.</dd>
 
   <dt>What does the heart at the top of review show?</dt>
-  <dd>It opens Recap: Kept, Unsure and Removed photo tabs. Tap a photo for a closer
+  <dd>It opens Recap: Kept and Removed photo tabs. Tap a photo for a closer
       look or to change its choice. Back returns to the photo you were reviewing.
       When you reopen an album in progress, you return to its photo review, even if you left from Recap.
         Add photos is in the ••• menu.</dd>
 
   <dt>Can I compare similar photos in Swipe?</dt>
   <dd>In builds with Swipe similarity, related photos open the same comparison
-      view as album review. Browse them, choose Keep, Remove or Unsure, and use
+      view as album review. Browse them, choose Keep or Remove, and use
       Undo if you change your mind. Browsing alone makes no choices. PhotoPick
       checks upcoming photos as you swipe; it does not scan your whole library
       before starting or choose a favourite for you.</dd>
 
   <dt>Does "Remove" delete my photo?</dt>
   <dd>No. In an album, Remove means the photo does not belong in that album. It
-      stays in Apple Photos. Unsure also stays outside the album until you choose
-      Keep. Neither choice sends the photo to Swipe's bin.</dd>
+      stays in Apple Photos. Removing it from an album does not send it to Swipe's bin.</dd>
 
   <dt>How do albums and Swipe work together?</dt>
   <dd>Photos selected for an album are reviewed there, so Swipe skips them even
       before you make any choices. They stay out of Swipe after the album is finished.
       Screenshots you explicitly skip from album review remain available in Swipe.
       Assigning a photo to album review cancels any pending Swipe removal without
-      making a Keep, Remove or Unsure choice for you. If Swipe has no photos left
+      making a Keep or Remove choice for you. If Swipe has no photos left
       because they are assigned to albums, it offers Open albums.</dd>
 
   <dt>What happens if I delete a PhotoPick album?</dt>
   <dd>Its photos become available in Swipe again, unless another PhotoPick album
-      still includes them or you already made a separate Keep or Unsure choice in
+      still includes them or you already made a separate Keep choice in
       Swipe. Old cancelled bin entries do not return. Deleting a PhotoPick album
       does not delete its originals from Apple Photos.</dd>
 
@@ -155,7 +157,7 @@ worked on, so bug reports and blunt feedback are genuinely welcome.</p>
   <dt>Can I delete removed photos after finishing an album?</dt>
   <dd>Yes. Open the album's Removed tab and tap Delete from Photos… to review
       the originals, then Delete from iPhone for Apple's confirmation. Cancelling
-      leaves them untouched. Photos kept in any album, or kept or left unsure in
+      leaves them untouched. Photos kept in any album, or kept or returned to review in
       Swipe, are protected. Review again returns a photo to that album's review.
       Album removals never fill Swipe's bin, and successful deletion removes the
       photos from every album's visible categories.</dd>
@@ -245,17 +247,24 @@ worked on, so bug reports and blunt feedback are genuinely welcome.</p>
       stored only in iCloud needs to load once before that copy is ready.</dd>
 
   <dt>Can I keep changing an album after finishing?</dt>
-  <dd>Yes. Add photos from the album’s top row, or browse Kept, Unsure and Removed.
-      Open a photo and use the same Keep / Remove / Unsure buttons or swipes as review.
+  <dd>Yes. Add photos from the album’s top row, or browse Kept and Removed.
+      Open a photo and use the same Keep / Remove buttons or swipes as review.
       Undo at the top restores your last
-      change. Unsure and Removed photos stay outside your album; nothing is deleted
+      change. Removed photos stay outside your album; nothing is deleted
       from your phone by changing those choices. Share photos uses your current
       kept photos whenever you open it.</dd>
 
   <dt>What if I haven’t kept any photos?</dt>
   <dd>Your choices are saved, but an album needs at least one kept photo before
       you can finish and export it. Keep one you like, or close and come back later.
-      Other Unsure photos can stay Unsure; they won’t be included in the export.</dd>
+      Every photo in your review needs a Keep or Remove choice before finishing.</dd>
+
+  <dt>What happened to Unsure?</dt>
+  <dd>Review now has two choices: Keep and Remove. Photos you previously left Unsure
+      return to review without being kept or removed for you. An album with those
+      photos resumes review; its existing keepers and order stay as they were.
+      In Swipe, those photos return to the deck unless they belong to an album,
+      and stay protected from deletion until you explicitly remove them.</dd>
 
   <dt>Can I share just some of my kept photos?</dt>
   <dd>Tap Share photos, select the favourites you want to send, then tap Share.
