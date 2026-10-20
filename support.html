@@ -23,7 +23,7 @@
 <p class="lead">Email <a href="mailto:edoardo.vaira@icloud.com">edoardo.vaira@icloud.com</a>
 and you'll get a reply, usually the same day. PhotoPick is in beta and being actively
 worked on, so bug reports and blunt feedback are genuinely welcome. In the app,
-Settings → What would you change? opens that email for you, with your PhotoPick
+Settings → Feedback opens that email for you, with your PhotoPick
 version, device and iOS version already filled in.</p>
 
 <h2>Common questions</h2>
@@ -67,7 +67,7 @@ version, device and iOS version already filled in.</p>
       Tap the reminder to open that month’s album. To skip a month, touch and hold its reminder and choose
       <strong>Not this month</strong>; nothing leaves Photos. When you finish your first album,
       PhotoPick shows the reminder and asks once whether you want it; say yes and Apple
-      asks whether to allow notifications. Turn reminders on or off in Settings → Monthly album reminder.</dd>
+      asks whether to allow notifications. Turn reminders on or off in Settings → Notifications.</dd>
 
   <dt>What is On this day?</dt>
   <dd>With Photos access already allowed, Home can show photos taken on this date
@@ -95,8 +95,8 @@ version, device and iOS version already filled in.</p>
       checked photo to leave it out; Done returns to the picker. Clear empties the
       selection. Choosing this batch does not keep or remove any photo yet.
       The album gets a name automatically, which you
-      can change during review or on the finished album. If you don’t allow Photos
-      access, Apple’s picker is offered instead. Limited access shows only allowed photos.
+      can change during review or on the finished album. Without Photos access,
+      PhotoPick shows how to allow it in Settings. Limited access shows only allowed photos.
       If a selected photo becomes unavailable, PhotoPick keeps your selection so
       you can retry or go back and adjust it; it does not silently leave photos out.</dd>
 
@@ -286,10 +286,11 @@ version, device and iOS version already filled in.</p>
   <dd>If a photo is only in iCloud, iOS needs to retrieve it. PhotoPick prepares
       upcoming photos while you review, including a small buffer on mobile data.
       A slow connection can still make you wait. You can prepare an album for offline review in advance from
-      the album's menu, or tap its download icon in Settings → App storage.</dd>
+      the album's menu, or tap its download icon in Settings → Offline albums.</dd>
 
-  <dt>What is App storage for?</dt>
-  <dd>Downloading albums for offline review and managing those downloads. Small
+  <dt>What is Offline albums for?</dt>
+  <dd>Downloading an album’s photos kept in iCloud for offline review, and managing
+      those downloads; photos already on your phone need no download. Small
       browsing previews are managed automatically. If an import was interrupted
       or photos remain after deleting a shared album, Settings → Saved photos
       lets you review them or explicitly delete their unused PhotoPick files.
@@ -313,7 +314,7 @@ version, device and iOS version already filled in.</p>
       undecided. After reviewing them, use Share photos to send your updated selection.
       Older photos received later may fall outside the recent
       range: use Choose photos for those. With limited Photos access, only allowed
-      photos can be added. This action is for your personal albums; nearby shared
+      photos can be added. This action is for your personal albums; shared
       albums receive photos through their existing contribution flow.</dd>
 
   <dt>Can I save the shared photos to Apple Photos?</dt>
@@ -381,15 +382,16 @@ version, device and iOS version already filled in.</p>
       These previews never replace originals when saving or sharing.</dd>
 
   <dt>How does sharing with friends work?</dt>
-  <dd>Open Friends and tap Create a shared album or Join a shared album (once you
-      have one, they are under the + beside the title). To join, scan
-      your friend’s invite or paste their invitation link. Everyone needs PhotoPick;
-      use the same Wi-Fi and keep the host and contributing phones open while photos
-      transfer. Saved shared albums appear directly in Friends next time.
+  <dd>Open Friends and tap Create a shared album (once you have one, it is under
+      the + beside the title), then send the link from ••• → Invite friends. Friends
+      with PhotoPick open it in the app; anyone else can join in a web browser.
       Inside an album, + adds your photos and Make my own album starts your private
-      selection. The ••• menu holds Invite friends, Share photos, Order photos and
-      Album details. Details shows who is there, what has downloaded, Reconnect and
-      Change cover. Photos travel between devices, without a server.</dd>
+      selection. Photos are encrypted on your phone, travel through our server and
+      download to everyone’s phone on Wi-Fi, or on mobile data if you allow it for
+      that album. Album details shows who is there and what has downloaded. The host
+      can ask to approve photos first, remove people and end the album; anyone can
+      report a photo or block someone. Photos stay on the server for 30 days after the
+      last one was added.</dd>
 
   <dt>How do I delete a shared album?</dt>
   <dd>Open the album in Friends, tap ••• → Album details → Delete shared album and
@@ -397,8 +399,9 @@ version, device and iOS version already filled in.</p>
       your phone, without deleting photos from Apple Photos, personal albums or
       friends’ phones. Downloaded photos stay under Settings → Saved
       photos; choose Review these photos to make a personal album. No extra
-      photo copies are created. If you created the shared album, deleting it stops
-      sharing in that room. Friends keep photos they have already received.</dd>
+      photo copies are created. If you created the shared album, friends can keep
+      using it until it ends; Album details → End for everyone ends it now. Friends
+      keep photos they have already received.</dd>
 
   <dt>Something crashed, or the app won't open.</dt>
   <dd>Email me with your iPhone model, iOS version, and roughly what you were doing.

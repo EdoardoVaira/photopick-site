@@ -18,18 +18,18 @@
 </style>
 
 <h1>Privacy Policy</h1>
-<p class="sub">PhotoPick for iPhone and iPad · Last updated 16 October 2026</p>
+<p class="sub">PhotoPick for iPhone and iPad · Last updated 20 October 2026</p>
 
-<p class="lead">PhotoPick does not collect, transmit, or store any personal data.
-There are no accounts, no analytics, no advertising, and no third-party services.
-Your photos stay on your device and in your own Apple Photos library.</p>
+<p class="lead">There are no accounts, no analytics and no advertising.
+Your photos stay on your device and in your own Apple Photos library, unless you
+add them to a shared album with friends. Over the internet, they are encrypted on your
+phone first, so we cannot see them.</p>
 
 <h2>Your photos</h2>
 <ul>
   <li>PhotoPick reads the Photos metadata you allow it to access to show a visual
       browser of photos and albums. You choose individual photos, a range or all
-      photos in the current source before review starts. Apple’s system picker is
-      also available. When you ask
+      photos in the current source before review starts. When you ask
       to add recent photos to an album, it uses capture dates in the Photos library
       you have allowed it to access and shows you the proposed additions first.
       Nothing is added until you confirm. It records your choices — keep or remove —
@@ -60,7 +60,11 @@ Your photos stay on your device and in your own Apple Photos library.</p>
       change that photo in your Apple Photos library, on your device, without making
       a copy. Apple Photos keeps the original: Revert to Original, in PhotoPick or
       Apple Photos, brings it back.</li>
-  <li>Nothing is uploaded to us. We operate no servers and receive no photographs.</li>
+  <li>Photo details shows where a photo was taken on an Apple Maps map, with the
+      place’s name. Opening details on a photo with a location sends that location to
+      Apple for the map and the name; nothing reaches us.</li>
+  <li>Nothing is uploaded to us unless you add photos to a shared album over the
+      internet, below.</li>
 </ul>
 
 <h2>Sharing photos with people nearby</h2>
@@ -76,11 +80,44 @@ Your photos stay on your device and in your own Apple Photos library.</p>
       photos until you review them into a personal album or explicitly
       delete those saved photos. Deleting a room does not delete photos from
       Apple Photos or from friends’ devices.</li>
+  <li>Shared photos are originals, with their embedded details, such as where and
+      when they were taken. Everyone in the album can see them.</li>
+</ul>
+
+<h2>Shared albums over the internet</h2>
+<ul>
+  <li>When you add photos to a shared album over the internet, they go through our
+      server, run by Cloudflare, to the album’s other members. Your phone encrypts each
+      photo, its previews and its embedded details before it leaves, along with the
+      album’s name and everyone’s names. The key travels only inside the invitation
+      link, so we cannot open them.</li>
+  <li>Anyone with the invitation link can join and see the album’s photos, their
+      details (where they were taken, too) and the name each person chose.</li>
+  <li>What our server can read: random IDs for the album, its members and their phones;
+      dates and limits; who added each photo and when; file sizes; approvals; which
+      files each phone downloaded, which can hint at photos you kept but not what they
+      show; and for each phone, a push token and an Apple App Attest key. Your
+      keep/remove choices, your albums and your Photos library never leave your phone.</li>
+  <li>Our server sees your internet address with each request, as any website does,
+      to limit abuse. It does not store it.</li>
+  <li>Apple delivers a silent notification when an album changes, naming only the
+      album’s ID, and App Attest checks that requests come from the real app.</li>
+  <li>People who join in a web browser use the same encryption, done by the page.
+      The page’s code comes from our server each time, so that promise also rests on
+      us serving honest code.</li>
+  <li>An album’s photos stay on the server for 30 days after the last one was added,
+      and never more than 90 days after the first. An album without photos ends after
+      90 days, and its host can end it sooner. Then its files and records are deleted
+      within a day; Cloudflare’s database keeps a restorable history for 30 more days.
+      Photos already downloaded stay on members’ phones.</li>
+  <li><strong>Reports:</strong> if you report a photo, your phone sends us that photo
+      readable so we can look at it. It is the only time we see a photo. A report is
+      kept until we deal with it, then deleted, with its photo, 90 days later.</li>
 </ul>
 
 <h2>What we do not do</h2>
 <ul>
-  <li>No user accounts, sign-in, or email collection. Settings → What would you change?
+  <li>No user accounts, sign-in, or email collection. Settings → Feedback
       only opens a message in your own mail app, addressed to me, with the app version,
       device model and iOS version written into it where you can see and delete them.
       Nothing is sent unless you send it, and PhotoPick itself sends nothing.</li>
@@ -103,14 +140,16 @@ Apple a diagnostic report.</p>
       Limited access shows only the photos you have allowed.</li>
   <li><strong>Local network</strong> — only for sharing photos with people nearby.</li>
   <li><strong>Camera</strong> — only if you scan a QR code to join a shared album.</li>
-  <li><strong>Notifications</strong> — only for one reminder on the last evening of each month to make
-      that month’s album. It is scheduled on your device; nothing is sent to us or anyone else.</li>
+  <li><strong>Notifications</strong> — for a reminder on the last evening of each month to make
+      that month’s album and, in shared albums, when friends add photos or the album’s photos are about
+      to leave the server. Your phone writes them itself; turn each on or off in Settings → Notifications.</li>
 </ul>
-<p>Notifications are asked for only if you say yes to the monthly reminder after finishing an album, or
-when you choose Settings → Monthly album reminder. The others are requested at the moment they are needed. The app works without granting the last three.</p>
+<p>Notifications are asked for only if you say yes to the monthly reminder or to friends’ photos, or
+from Settings → Notifications. The others are requested at the moment they are needed. The app works without granting the last three.</p>
 
 <h2>Children</h2>
-<p>PhotoPick collects no personal information from anyone, including children.</p>
+<p>PhotoPick is not directed at children and asks no one’s age. Apart from photos sent
+in a report, we cannot read anyone’s photos or names.</p>
 
 <h2>Changes</h2>
 <p>If this policy changes, the date at the top of this page will change with it.</p>
