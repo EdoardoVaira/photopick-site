@@ -18,7 +18,7 @@
 </style>
 
 <h1>Privacy Policy</h1>
-<p class="sub">PhotoPick for iPhone and iPad · Last updated 20 October 2026</p>
+<p class="sub">PhotoPick for iPhone and iPad · Last updated 22 October 2026</p>
 
 <p class="lead">There are no accounts, no analytics and no advertising.
 Your photos stay on your device and in your own Apple Photos library, unless you
@@ -96,12 +96,18 @@ phone first, so we cannot see them.</p>
   <li>What our server can read: random IDs for the album, its members and their phones;
       dates and limits; who added each photo and when; file sizes; approvals; which
       files each phone downloaded, which can hint at photos you kept but not what they
-      show; and for each phone, a push token and an Apple App Attest key. Your
+      show; and for each phone, a push token, an Apple App Attest key, whether it wants
+      notifications, until when it muted the album and the members it blocked. Your
       keep/remove choices, your albums and your Photos library never leave your phone.</li>
   <li>Our server sees your internet address with each request, as any website does,
       to limit abuse. It does not store it.</li>
-  <li>Apple delivers a silent notification when an album changes, naming only the
-      album’s ID, and App Attest checks that requests come from the real app.</li>
+  <li>When friends add photos, or photos wait for your approval, our server asks Apple
+      to show you a notification. It carries random IDs for the album, the person and a
+      photo, and how many photos; the album’s and the person’s names travel encrypted,
+      and your phone opens them to write the message. Apple and we see only “New photos
+      in a shared album”. Other changes send a silent notification naming only the
+      album’s ID. While PhotoPick is open, it keeps a connection to our server that only
+      says an album changed. App Attest checks that requests come from the real app.</li>
   <li>People who join in a web browser use the same encryption, done by the page.
       The page’s code comes from our server each time, so that promise also rests on
       us serving honest code.</li>
@@ -142,7 +148,8 @@ Apple a diagnostic report.</p>
   <li><strong>Camera</strong> — only if you scan a QR code to join a shared album.</li>
   <li><strong>Notifications</strong> — for a reminder on the last evening of each month to make
       that month’s album and, in shared albums, when friends add photos or the album’s photos are about
-      to leave the server. Your phone writes them itself; turn each on or off in Settings → Notifications.</li>
+      to leave the server. Your phone writes the reminders itself; friends’ photos come through Apple from
+      our server, as above. Turn each on or off in Settings → Notifications, or mute one album in its details.</li>
 </ul>
 <p>Notifications are asked for only if you say yes to the monthly reminder or to friends’ photos, or
 from Settings → Notifications. The others are requested at the moment they are needed. The app works without granting the last three.</p>
